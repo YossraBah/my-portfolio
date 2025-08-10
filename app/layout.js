@@ -68,7 +68,7 @@ export const metadata = {
     title: "Home | Portfolio",
     description: "Portfolio of my work",
     creator: "@yosra_bahloul",
-    images: ["/og-image.jpg"],
+    images: ["/og.PNG"],
   },
 
   robots: {
