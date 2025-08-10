@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://yosrabahloul-portfolio.vercel.app/
+
+# Sitemaps
+Sitemap: https://yosrabahloul-portfolio.vercel.app/sitemap.xml
