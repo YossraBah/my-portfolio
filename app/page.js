@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="relative aspect-square flex flex-col justify-center max-h-[460px]">
                   <Image
                     src={profle}
-                    alt="profile - Picto Free NextJS & Tailwindcss Template"
+                    alt="profile - Image of my profile picture"
                     className="object-contain h-full w-auto max-w-full"
                   />
                   <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-9 flex gap-1 bg-white w-auto mx-auto  p-3 rounded shadow-[0_12px_64px_0_rgba(28,25,25,0.12)]">
