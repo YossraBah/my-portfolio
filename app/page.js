@@ -73,8 +73,8 @@ export default function Home() {
               </div>
               <div className="lg:w-3/5 grid mt-16 lg:mt-0">
                 <div>
-                  <h1 className="font-semibold text-5xl flex gap-2 justify-start items-end text-primary-500">
-                    <span className="font-semibold text-gray-900  text-[3.5rem]">
+                  <h1 className="font-semibold text-2xl md:text-5xl flex gap-2 justify-start items-end text-primary-500">
+                    <span className="font-semibold text-gray-900  md:text-[3.5rem]">
                       I'm{" "}
                     </span>
                     <Typewriter
@@ -179,7 +179,10 @@ export default function Home() {
                       3. Databases & SGBD
                     </div>
                     <p className="text-gray-600">
-                      MongoDB, PostgreSQL, Firebase, SQL, NoSQL
+                      SQL: PostgreSQL
+                    </p>
+                     <p className="text-gray-600">
+                      NoSQL: MongoDB, Firebase
                     </p>
                   </div>
                   <div className="bg-white p-8 rounded-xl group hover:shadow-[32px_32px_124px_0_rgba(43,56,76,0.10)]">

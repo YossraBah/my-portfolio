@@ -16,10 +16,10 @@ export default function Page() {
   const onSubmit = async (data) => {
     try {
       await emailjs.send(
-        "contact_service", // Replace with EmailJS Service ID
-        "template_24mnnp6", // Replace with EmailJS Template ID
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, // Replace with EmailJS Service ID
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, // Replace with EmailJS Template ID
         data,
-        "bY0Ss1D24wp1XVg-v" // Replace with EmailJS Public Key
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY // Replace with EmailJS Public Key
       );
 
       toast("Your message is sent successfully!", {
